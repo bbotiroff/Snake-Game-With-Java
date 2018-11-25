@@ -1,3 +1,11 @@
+/*
+ * @ Author: Bakhrom Botirov 
+ * @ Game Name: Snake
+ * @ Professor: Usman Risvi
+ * @ Class: C SCI 143 (6146)
+ * @ Date: 11/25/2018
+ * 
+ */
 import java.util.ArrayList;
 
 public class Snake{
