@@ -1,3 +1,12 @@
+/*
+ * @ Author: Bakhrom Botirov 
+ * @ Game Name: Snake
+ * @ Professor: Usman Risvi
+ * @ Class: C SCI 143 (6146)
+ * @ Date: 11/25/2018
+ * 
+ */
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.*;
@@ -33,6 +42,13 @@ public class Board extends GraphicsProgram{
 	private int score = 0;
 	private boolean isGameOver = false;
 		
+	public static void main(String[] args) {
+		Board b = new Board();
+	}
+	
+	public Board() {
+	}
+	
 	public void init() {
 		
 		this.renderBoard();
